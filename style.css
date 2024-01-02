@@ -22,3 +22,7 @@ header {
     flex-wrap: wrap;
     background-color: black;
 }
+.right_content {
+    display: flex;
+    flex-wrap: wrap;
+}
