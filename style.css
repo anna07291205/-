@@ -26,3 +26,15 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
+a {
+    text-decoration: none;
+}
+.right_content a {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--main);
+}
+
+.right_content a:not(:nth-child(n + 3)) {
+    padding-right: 15px;
+}
